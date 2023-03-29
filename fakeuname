@@ -61,7 +61,7 @@ done
 
 # write uname file
 cat > "$dir/uname" <<EOF
-#!/bin/sh
+#!/bin/bash
 
 uname_output() {
     $uname "\$1";
